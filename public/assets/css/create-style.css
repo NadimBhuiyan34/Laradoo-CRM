@@ -1,0 +1,195 @@
+/* create */
+.createCont #top ~ div div.col-xl-2 p{
+    color: grey;
+}
+
+.createCont > div:first-child > div:last-child .icon-earth{
+    font-size: 1.5rem;
+}
+
+.createCont > div:nth-child(2) > div:first-child .row:nth-child(2) > div:first-child > p:first-child{
+    font-size: 1rem;
+}
+
+.modal-container,
+.modal-container > button{
+    width: 100% !important;
+}
+
+/* modal head */
+#create-modal.modal{
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
+#create-modal .modal-header  [class*=" icon-"], #create-modal .modal-header  [class^=icon-]{
+    font-size: 1.45rem;
+    color: grey;
+}
+
+#create-modal .modal-header > div.w-100{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#create-modal .modal-header > div.w-100 > div > div {
+    border-left: 1px solid grey;
+    cursor: pointer;
+}
+
+
+/* modal body */
+#create-modal .modal-body > form:first-child > div:first-child{
+    width: 60%;
+}
+
+#create-modal .modal-body > form:first-child > div:first-child > div:nth-child(2) input{
+    padding-bottom: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 2.1rem;
+}
+
+#create-modal .modal-body > form:first-child > div:first-child > div:nth-child(2) input:focus{
+    outline: white;
+    border-bottom-color: green;
+}
+
+#create-modal .modal-body > form:first-child > div:first-child > div:nth-child(2) input::placeholder{
+    color: rgba(128, 128, 128, 0.596);
+    font-size: 1.8rem;
+}
+
+#create-modal .modal-body > form:first-child > div:first-child > div:nth-child(2) select{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+#create-modal .modal-body > form:first-child > div:first-child > div:nth-child(2) select:focus{
+    outline: 0;
+}
+
+#create-modal .modal-body > form:first-child > div:nth-child(2) {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+#create-modal .modal-body > form:first-child > div:nth-child(2) > span [class^=icon-]{
+    font-size: 3rem;
+    color: grey;
+}
+
+#create-modal .modal-body > form:first-child > div:nth-child(2) > div{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(112, 234, 255, 0.5);
+    display: none !important;   
+}
+
+#create-modal .modal-body > form:first-child > div:nth-child(2) > div [class^=icon-]{
+    cursor: pointer;
+}
+
+#create-modal .modal-body > form:first-child > div:nth-child(2):hover div:last-child{
+    display: flex !important;
+}
+
+#create-modal .modal-body > form:nth-child(2) > div > p{
+    margin-right: 3rem !important;
+} 
+
+#create-modal .modal-body > form:nth-child(2) > div > div *:not(div),
+#create-modal .salesForm label input,
+#create-modal .salesForm label select,
+#create-modal .purchaseForm label select,
+#create-modal .fiscal-info label input,
+#create-modal .misc-info label input,
+#basic-tab3 .entries select,
+.left-cont > div:last-child .row:nth-child(2) form label input,
+.left-cont > div:last-child .row:nth-child(2) form label select
+{
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    margin-bottom: 0.4rem;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#create-modal .modal-body > form:nth-child(2) > div:first-child > div *:not(div):focus, 
+#create-modal .modal-body > form:nth-child(2) > div:nth-child(2) input:focus,
+#create-modal .salesForm label input:focus,
+#create-modal .fiscal-info label input:focus,
+#create-modal .salesForm label select:focus,
+#create-modal .purchaseForm label select:focus,
+#create-modal .misc-info label input:focus,
+#basic-tab3 .entries select:focus,
+.left-cont > div:last-child .row:nth-child(2) form label input:focus,
+.left-cont > div:last-child .row:nth-child(2) form label select:focus{
+    outline: 0;
+    border-bottom: 1px solid green;
+}
+
+#create-modal .modal-body > form:nth-child(2) > div:first-child > div select,
+#create-modal .salesForm label select,
+#create-modal .purchaseForm label select,
+.left-cont > div:last-child .row:nth-child(2) form label select,
+.left-cont > div:last-child .row:nth-child(2) form label input[type="date"]{
+    color: grey;
+}
+
+#create-modal .modal-body > form:nth-child(2) > div:first-child > div select option,
+#create-modal .salesForm label select option,
+#create-modal .purchaseForm label select option{
+    color: black;
+}
+
+#create-modal .modal-body > form:nth-child(2) > div:nth-child(2) ,
+#create-modal .purchaseForm ,
+#create-modal .misc-info,
+#basic-tab3 .entries{
+    width: 50%;
+}
+
+#create-modal .modal-body > form:nth-child(2) > div:nth-child(2) input{
+    border: none;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#create-modal .tab-section p{
+    font-size: 0.7rem;
+}
+
+#create-modal .salesForm.w-50,
+#create-modal .fiscal-info.w-50
+{
+    width: 47.5% !important;
+}
+
+#create-modal #basic-tab3 .table{
+    width: 47.5%;
+}
+
+#create-modal #basic-tab4 textarea{
+    width: 100%;
+    resize: vertical;
+    overflow: visible;
+    border: none;
+}
+
+@media (max-width:990px){
+    #main-body{
+        flex-direction: column;
+        border-top: 0.1rem solid rgba(230, 230, 230, 0.582);
+    }
+}

@@ -1,0 +1,226 @@
+@import url(bootstrap.min.css);
+@import url(bootstrap_limitless.min.css);
+@import url(colors.min.css);
+@import url(components.min.css);
+@import url(layout.min.css);
+@import url(../../global_assets/css/extras/animate.min.css);
+@import url(../../global_assets/css/icons/material/fonts/material-icons.svg);
+@import url(../../global_assets/css/icons/icomoon/styles.min.css);
+@import url(../../global_assets/css/icons/material/styles.min.css);
+@import url(../../global_assets/css/icons/fontawesome/styles.min.css);
+
+
+#data-table-header{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#data-table-header button:last-child{
+    /* display: none; */
+}
+
+#calender-event-header{
+    display: none;
+}
+
+#chart-header{
+    display: none;
+}
+
+#data-table{
+    display: none;
+}
+
+#data-grid{
+    /* display: none; */
+}
+
+#calender-event{
+    display: none;
+}
+
+#chart{
+    display: none;
+}
+
+#activities{
+    display: none;
+}
+.iconsize{
+    font-size: 1em;
+  }
+/* navbar */
+nav{
+    background-color: #714B67 !important;
+}
+
+#profile img{
+    width: 1.4rem;
+}
+ 
+  
+nav .dropdown-toggle::after{
+    content: none;
+}
+
+.navbar-nav-link .badge {
+    top: 6px;
+    right: 2px;
+}
+
+nav .badge{
+    padding: 0.1rem 0.25rem !important;
+}
+
+nav div ul:last-child li:first-child > div a{
+    color: black !important;
+}
+
+nav div ul:last-child li:first-child > div > div .active{
+    color: #0c90a1 !important;
+}
+
+nav div ul:last-child li:first-child > div > div:first-child > div{
+    width: 40%;
+}
+
+nav div ul:last-child li:first-child > div > ul li{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav div ul:last-child li:first-child > div > ul li:hover{
+    background-color: #dddddd;
+}
+
+nav div ul:last-child li:first-child > div > ul li a{
+    align-items: center;
+}
+
+/* data-table */
+.data-table{
+    /* border-top: 1px solid rgb(177, 177, 177); */
+    margin-top: 1rem;
+    padding-top: 10px !important;
+}
+
+/* table */
+.table thead th  {
+    padding-right: 0 !important;
+}
+
+.table thead th  , .table tbody td{
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table tbody td:nth-child(11){
+    text-align: center;
+}
+
+.table tbody td:nth-child(14) p{
+    background-color: #4abbca;
+    color: black;
+    display: inline;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+
+.table tfoot td:nth-child(2){
+    text-align: center;
+}
+
+#data-table .table tbody td{
+    color: #0c90a1;
+}
+
+.table tfoot td{
+    font-weight: bolder;
+}
+
+.table thead th a{
+    padding: 0;
+    width: max-content;
+    margin: 0;
+    margin-right: -10px;
+}
+
+.table th a::after{
+    content: "";
+}
+
+a::after{
+    content: "" ;
+}
+
+.table thead th:last-child > div{
+    top: 18px !important;
+}
+
+.table thead th:last-child > div label{
+    display: block;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+.table .cancelled *{
+    color: grey !important;
+}
+
+.table .cancel-status{
+    background-color: rgb(175, 175, 175) !important;
+    color: black !important;
+}
+
+/* box-content */
+.data-table .box-content {
+    padding: 12px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+.data-table .box-content > .box-card{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 2px;
+    padding: 4px 10px;
+}
+
+.data-table .box-content > .box-card > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-table .box-content > .box-card > div:last-child p{
+    border: 1px solid green;
+    padding: 0 3px;
+    border-radius: 5px;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.data-table .box-content > .box-card > div:last-child p.quatation-sent{
+    background-color: #0c90a1 !important;
+    color: white !important;
+}
+
+/* activities */
+#activites .table tbody td:not(:first-child):hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.border-right{
+    width: 0;
+    height: 0;
+    border: 21px solid transparent;
+    border-left-color: #714B67;
+}
+.table-border2{
+    border-top-style:solid;
+    border-right-style:none;
+    border-bottom-style:none;
+    border-left-style:solid;
+}
