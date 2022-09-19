@@ -71,6 +71,17 @@ Route::get('lead-mining-create', [LeadMiningController::class, 'leadMiningCreate
 Route::get('lead-rules', [LeadRulesController::class, 'leadRulesIndex'])->name('lead-rules-index');
 Route::get('lead-rules-create', [LeadRulesController::class, 'leadRulesCreate'])->name('lead-rules-create');
 
-Route::get('mytask', [IndexController::class, 'mytask'])->name('Frontend.mytasks');
-Route::get('createtask', [IndexController::class, 'createtask'])->name('Frontend.create_task');
+ 
 
+// Reporting
+Route::get('r-dashboard', [RdashboardController::class, 'rdashboardIndex'])->name('r-dashboard-index');
+ 
+Route::get('forecast', [ForecastController::class, 'forecastIndex'])->name('forecast-index');
+Route::get('forecast-create', [ForecastController::class, 'forecastCreate'])->name('forecast-create');
+ 
+Route::get('lead-analysis', [LeadAnalysisController::class, 'leadAnalysis'])->name('lead-analysis');
+
+Route::get('pipeline-analysis', [PipelineAnalysisController::class, 'pipelineAnalysis'])->name('pipeline-analysis');
+
+Route::get('activities-analysis', [ActivitiesAnalysisController::class, 'activitiesAnalysis'])->name('activities-analysis');
+ 
