@@ -20,17 +20,17 @@
                         Sales
                     </a>
                     <div class="dropdown-menu dropdown-menu-left dropdown-content wmin-md-150">
-                        <a href="#" class="dropdown-item">My Pipeline</a>
-                        <a href="#" class="dropdown-item">My Activities</a>
+                        <a href="{{ route('homepage') }}" class="dropdown-item">My Pipeline</a>
+                        <a href="{{ route('activities-index') }}" class="dropdown-item">My Activities</a>
                         <a href="{{ route('quotation-index') }}" class="dropdown-item">My Quotations</a>
-                        <a href="#" class="dropdown-item">Teams</a>
+                        <a href="{{ route('teams-index') }}" class="dropdown-item">Teams</a>
                         <a href="{{ route('customer-index') }}" class="dropdown-item">Customer</a>
 
                     </div>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="{{route('Frontend.mytasks')}}" class="navbar-nav-link dropdown-toggle legitRipple py-0" >
+                    <a href="{{route('leads-index')}}" class="navbar-nav-link dropdown-toggle legitRipple py-0" >
                         Leads
                     </a>
                 </li>
@@ -45,7 +45,7 @@
                     <div class="dropdown-menu dropdown-menu-left dropdown-content wmin-md-150">
                         <a href="#" class="dropdown-item">Dashboard</a>
                         <a href="#" class="dropdown-item">Forecast</a>
-                        <a href="#" class="dropdown-item">Leads</a>
+                        <a href="{{ route('leads-index') }}" class="dropdown-item">Leads</a>
                         <a href="#" class="dropdown-item">Pipeline</a>
                         <a href="#" class="dropdown-item">Activites</a>
 
@@ -61,14 +61,14 @@
                         <a href="#" class="dropdown-item">Settings</a>
                         <a href="{{ route('sales-teams') }}" class="dropdown-item">Sales Teams</a>
 
-                        <a href="#" class="dropdown-item">Activity Types</a>
-                        <a href="#" class="dropdown-item">Recurring Plans</a>
+                        <a href="{{ route('activity-type-index') }}" class="dropdown-item">Activity Types</a>
+                        <a href="{{ route('recurring-index') }}" class="dropdown-item">Recurring Plans</a>
                         <div class="dropdown-header  font-size-xs line-height-xs">Pipeline</div>
-                        <a href="#" class="dropdown-item">Tags</a>
-                        <a href="#" class="dropdown-item">Lost Reasons</a>
+                        <a href="{{ route('tags-index') }}" class="dropdown-item">Tags</a>
+                        <a href="{{ route('lostreason-index') }}" class="dropdown-item">Lost Reasons</a>
                         <div class="dropdown-header  font-size-xs line-height-xs">Lead Generation</div>
-                        <a href="#" class="dropdown-item">Lead Mining Requests</a>
-                        <a href="#" class="dropdown-item">Visit to Lead Rules</a>
+                        <a href="{{ route('lead-mining-index') }}" class="dropdown-item">Lead Mining Requests</a>
+                        <a href="{{ route('lead-rules-index') }}" class="dropdown-item">Visit to Lead Rules</a>
                     </div>
                 </li>
             </ul>

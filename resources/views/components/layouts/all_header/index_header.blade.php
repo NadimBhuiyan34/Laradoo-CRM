@@ -18,8 +18,8 @@
         <div class="col-xl-6 justify-content-md-start" id="data-table-header">
             <div class="py-0">
                 
-                <td><button type="button" class="btn btn-success btn-sm legitRipple rounded" data-toggle="modal" data-target="#modal_large" style="background-color:hsl(126, 95%, 23%); color: white; padding:3px 10px 3px 10px">Create</button></td>
-                <td><button type="button" class="btn  btn-sm legitRipple py-1 px-2 " data-toggle="modal" data-target="#modal_large" style="background-color:rgb(255, 255, 255); color: rgb(5, 71, 3);">Generate Leads</button></td>
+                <td><button type="button" class="btn btn-success btn-sm legitRipple rounded" style="background-color:hsl(126, 95%, 23%); color: white; padding:3px 10px 3px 10px">Create</button></td>
+                <td><button type="button" class="btn  btn-sm legitRipple  " data-toggle="modal" data-target="#modal_large" style="background-color:rgb(255, 255, 255); color: rgb(5, 71, 3);padding:3px 10px 3px 10px"">Generate Leads</button></td>
         
         
                 <a href="#" class="btn legitRipple btn-sm px-1 float-end mt-1 d-none" id="action" data-toggle="dropdown" aria-expanded="true" style="padding-top:3px;padding-bottom:3px "><i class="icon-cog2 show-at-hover mr-1 fw-bold icon-sm"style="font-size: 0.6em;"></i><span style="font-size: 1em;" class="text-capitalize">Action</span></a>

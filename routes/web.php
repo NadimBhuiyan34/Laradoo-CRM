@@ -4,6 +4,15 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\SalesteamsController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\QuotationController;
+use App\Http\Controllers\ActivitiesController;
+use App\Http\Controllers\TeamsController;
+use App\Http\Controllers\RecurringController;
+use App\Http\Controllers\LostreasonController;
+use App\Http\Controllers\ActivityTypeController;
+use App\Http\Controllers\TagsController;
+use App\Http\Controllers\LeadsController;
+use App\Http\Controllers\LeadMiningController;
+use App\Http\Controllers\LeadRulesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,6 +43,33 @@ Route::get('customer-create', [CustomerController::class, 'customerCreate'])->na
 
 Route::get('quotations', [QuotationController::class, 'quotationIndex'])->name('quotation-index');
 Route::get('quotations-create', [QuotationController::class, 'quotationCreate'])->name('quotation-create');
+
+Route::get('activities', [ActivitiesController::class, 'activitiesIndex'])->name('activities-index');
+Route::get('activities-create', [ActivitiesController::class, 'activitiesCreate'])->name('activities-create');
+
+Route::get('teams', [TeamsController::class, 'teamsIndex'])->name('teams-index');
+Route::get('teams-create', [TeamsController::class, 'teamsCreate'])->name('teams-create');
+
+Route::get('leads', [LeadsController::class, 'leadsIndex'])->name('leads-index');
+Route::get('leads-create', [LeadsController::class, 'leadsCreate'])->name('leads-create');
+
+Route::get('activity-type', [ActivityTypeController::class, 'activityTypeIndex'])->name('activity-type-index');
+Route::get('activity-type-create', [ActivityTypeController::class, 'activityTypeCreate'])->name('activity-type-create');
+
+Route::get('recurring', [RecurringController::class, 'recurringIndex'])->name('recurring-index');
+Route::get('recurring-create', [RecurringController::class, 'recurringCreate'])->name('recurring-create');
+
+Route::get('tags', [TagsController::class, 'tagsIndex'])->name('tags-index');
+Route::get('tags-create', [TagsController::class, 'tagsCreate'])->name('tags-create');
+
+Route::get('lostreason', [LostreasonController::class, 'lostreasonIndex'])->name('lostreason-index');
+Route::get('lostreason-create', [LostreasonController::class, 'lostreasonCreate'])->name('lostreason-create');
+
+Route::get('lead-mining', [LeadMiningController::class, 'leadMiningIndex'])->name('lead-mining-index');
+Route::get('lead-mining-create', [LeadMiningController::class, 'leadMiningCreate'])->name('lead-mining-create');
+
+Route::get('lead-rules', [LeadRulesController::class, 'leadRulesIndex'])->name('lead-rules-index');
+Route::get('lead-rules-create', [LeadRulesController::class, 'leadRulesCreate'])->name('lead-rules-create');
 
 Route::get('mytask', [IndexController::class, 'mytask'])->name('Frontend.mytasks');
 Route::get('createtask', [IndexController::class, 'createtask'])->name('Frontend.create_task');
