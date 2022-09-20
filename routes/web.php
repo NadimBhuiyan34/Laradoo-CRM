@@ -13,6 +13,11 @@ use App\Http\Controllers\TagsController;
 use App\Http\Controllers\LeadsController;
 use App\Http\Controllers\LeadMiningController;
 use App\Http\Controllers\LeadRulesController;
+use App\Http\Controllers\RdashboardController;
+use App\Http\Controllers\ForecastController;
+use App\Http\Controllers\LeadAnalysisController;
+use App\Http\Controllers\PipelineAnalysisController;
+use App\Http\Controllers\ActivitiesAnalysisController;
 use Illuminate\Support\Facades\Route;
 
 /*

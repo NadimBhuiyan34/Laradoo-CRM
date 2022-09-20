@@ -43,11 +43,11 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-left dropdown-content wmin-md-150">
-                        <a href="#" class="dropdown-item">Dashboard</a>
-                        <a href="#" class="dropdown-item">Forecast</a>
-                        <a href="{{ route('leads-index') }}" class="dropdown-item">Leads</a>
-                        <a href="#" class="dropdown-item">Pipeline</a>
-                        <a href="#" class="dropdown-item">Activites</a>
+                        <a href="{{ route('r-dashboard-index') }}" class="dropdown-item">Dashboard</a>
+                        <a href="{{ route('forecast-index') }}" class="dropdown-item">Forecast</a>
+                        <a href="{{ route('lead-analysis') }}" class="dropdown-item">Leads</a>
+                        <a href="{{ route('pipeline-analysis') }}" class="dropdown-item">Pipeline</a>
+                        <a href="{{ route('activities-analysis') }}" class="dropdown-item">Activites</a>
 
                     </div>
                 </li>
