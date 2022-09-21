@@ -61,6 +61,13 @@
     <script src="global_assets/js/demo_charts/echarts/light/bars/waterfall_change.js"></script>
     <script src="global_assets/js/demo_charts/echarts/light/bars/columns_timeline.js"></script>
     <!-- /theme JS files -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<script src="assets/js/app.js"></script>
+	 
+	<script src="../../../../global_assets/js/demo_charts/google/light/lines/area.js"></script>
+
+    <script src="../../../../global_assets/js/demo_charts/google/light/bars/column.js"></script>
  
 </head>
 <body>
@@ -69,7 +76,7 @@
 
 {{-- + --}}
 {{$slot}}
-
+ 
  {{-- Java script --}}
  <script src="{{asset('assets/select2.js')}}"></script>
         <script src="{{asset('assets/select2.min.js')}}"></script>

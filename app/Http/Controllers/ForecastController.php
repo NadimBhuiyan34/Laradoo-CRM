@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ForecastController extends Controller
 {
     public function forecastIndex(){
-        return view('Frontend.forecast.index');
+        return view('Frontend.analysis.forecast.index');
        }
 }

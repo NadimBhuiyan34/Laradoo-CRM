@@ -78,7 +78,7 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="navbar-nav-link dropdown-toggle legitRipple position-relative" data-toggle="dropdown">
                         <i class="icon-bubble" style="font-size: 14px;margin-top:5px"></i>
-                        <span class="badge badge-info badge-pill badge-float border-2 border-white" style="margin-top:5px">1</span>
+                        <span class="badge badge-primary badge-pill badge-float border-2 border-white" style="margin-top:5px">1</span>
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-350">
@@ -140,7 +140,7 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="navbar-nav-link dropdown-toggle legitRipple" data-toggle="dropdown">
                         <i class="icon-history" style="margin-top:5px"></i>
-                        <span class="badge badge-info badge-pill badge-float border-2 border-white" style="margin-top:5px">3</span>
+                        <span class="badge badge-primary badge-pill badge-float border-2 border-white" style="margin-top:5px">3</span>
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-150">
